@@ -12,7 +12,7 @@
    <body>
       <p> Mensaje de error </p>      
       <form>
-         <input type = "button" value = "No está posicionado sobre la página inicial de carga" onclick = "fun();" />
+         <input type = "button" value = "No hay datos sobre la página inicial de carga" onclick = "fun();" />
       </form>     
    </body>
 </html>
