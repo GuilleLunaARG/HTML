@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Carga Nosis a Odoo </p>
+<p> Nro de Informe: </p>
+<p id="informeid">0</p>
+<button id='Botoninforme' onclick="myFunction()">Cargar Nro Informe</button>
+<p> DNI: </p>
+<p id="dniid">0</p>
+<button id='Botondni' onclick="myFunction2()">Cargar DNI</button>
+
+
+
+<script>
+function myFunction() {
+    var textbox= prompt("Ingresar el Nro de Informe", "");
+    var informeidHolder = document.getElementById('informeid');
+    informeidHolder.innerHTML = textbox;
+}
+function myFunction2() {
+    var textbox= prompt("Ingresar el Nro de DNI", "");
+    var informeidHolder = document.getElementById('dniid');
+    informeidHolder.innerHTML = textbox;
+}
+
+</script>
+
+</body>
+</html>
